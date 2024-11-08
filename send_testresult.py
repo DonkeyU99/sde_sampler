@@ -3,8 +3,8 @@ import os
 import json
 import xml.etree.ElementTree as ET
 
-CHATID = '-912966431'  # chat id of OOD in Latent Space
-JENKINS = 'http://swyoon.iptime.org:28080/job'
+CHATID = ''  # chat id of OOD in Latent Space
+JENKINS = ''
 JOBNAME = 'run-test-sde-sampler'
 
 def send_to_telegram(msg):
