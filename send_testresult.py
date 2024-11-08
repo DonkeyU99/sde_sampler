@@ -3,6 +3,8 @@ import os
 import json
 import xml.etree.ElementTree as ET
 
+#TEST 
+
 CHATID = ''  # chat id of OOD in Latent Space
 JENKINS = ''
 JOBNAME = 'run-test-sde-sampler'
