@@ -38,7 +38,7 @@ def parse_test_result(file_testresult):
 
 
 def send_test_result():
-    txt_result = parse_test_result('testresult.xml')
+    txt_result = "TEST"#parse_test_result('testresult.xml')
     send_to_telegram(txt_result)
 
 if __name__ == '__main__':
